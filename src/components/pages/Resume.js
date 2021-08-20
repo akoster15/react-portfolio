@@ -7,7 +7,7 @@ export default function Resume() {
             <div className="row justify-content-md-center">
                 <div className="row xs12 sm={4} md4">
                     <h1 className="text-center">Resume</h1>
-                        <img className="img-responsive img-fluid" src={Res} alt="resumeIMG" width="500" height="800"
+                        <img className="img-responsive img-fluid" src={Res} alt="resumeIMG" width="100" height="400"
                     >
                     </img>
         </div>

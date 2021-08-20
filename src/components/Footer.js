@@ -1,27 +1,27 @@
 import React from 'react'
 
-export default function Footer() {
+function Footer() {
     return(
-        <footer>
+        <footer style={{bottom: "0", height: "6rem", background: "#d4a373"}}>
         <div className="main-footer font-small blue pt-4">
             <div className="container-fluid text-center text-md-left">
                 <div className="row">
 
                     <div className="col-md-3 mx-auto">
-                        <ul className="list-unstyled">
-                        <li><a href="https://github.com/akoster15"target="blank"><i class="links"></i>GitHub</a></li>
+                        <ul style={{listStyleType:"none", display: "flex", justifyContent: "space-around"}}>
+                        <li><a style={{textDecoration: "none", display: "block"}} href="https://github.com/akoster15"target="blank">GitHub</a></li>
                         </ul>
                     </div>
 
                     <div className="col-md-3 mx-auto">
-                        <ul className="list-unstyled">
-                        <li><a href="https://www.linkedin.com/in/andrew-n-koster/"target="blank"><i class="links"></i>LinkedIn</a></li>
+                        <ul style={{listStyleType:"none", display: "flex", justifyContent: "space-around"}}>
+                        <li><a style={{textDecoration: "none", display: "block"}} href="https://www.linkedin.com/in/andrew-n-koster/"target="blank">LinkedIn</a></li>
                         </ul>
                     </div>
 
                     <div className="col-md-3 mx-auto">
-                        <ul className="list-unstyled">
-                        <li><a href="https://twitter.com/AKoster15"target="blank"><i class="links"></i>Twitter</a>
+                        <ul style={{listStyleType:"none", display: "flex", justifyContent: "space-around"}}>
+                        <li><a style={{textDecoration: "none", display: "block"}} href="https://twitter.com/AKoster15"target="blank">Twitter</a>
                         </li>
                         </ul>
                     </div>
@@ -33,3 +33,5 @@ export default function Footer() {
         </footer>
     );
 }
+
+export default Footer;
