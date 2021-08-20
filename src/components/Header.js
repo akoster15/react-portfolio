@@ -1,7 +1,6 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import React from 'react';
 
-const Navbar = () => {
+function Navbar = ({ currentPage, handlePageChange }) {
     return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
@@ -13,17 +12,41 @@ const Navbar = () => {
 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ml-auto">
-      <li className="nav-item active">
-        <a className="nav-link" href="#">About Me<span className="sr-only"></span></a>
+      <li className="nav-item">
+        <a 
+         href="#about"
+         onClick={() => handlePageChange('About')}
+         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
+          About Me
+          </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Portfolio</a>
+        <a 
+         href="#portfolio"
+         onClick={() => handlePageChange('Portfolio')}
+         className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >
+          Portfolio
+          </a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contact</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link" href="#">Resume</a>
+        <a 
+         href="#contact"
+         onClick={() => handlePageChange('Contact')}
+         className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact
+          </a>
+          </li>
+          <li className="nav-item">
+        <a 
+         href="#resume"
+         onClick={() => handlePageChange('Resume')}
+         className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+          </a>
       </li>
         </ul>
       </div>
