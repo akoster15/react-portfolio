@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navigation/Navbar';
 
 function App() {
   return (
     <div>
-      <h1>React Portfolio</h1>
+      <Navbar/>
     </div>
   );
 }
