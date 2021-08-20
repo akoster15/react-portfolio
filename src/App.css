@@ -1,7 +1,26 @@
-{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Encode Sans Expanded',
-  sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+  --primary-white:
+}
+
+body {
+  font-family: "Roboto Condensed" sans-serif;
+}
+
+/*Menu Links*/
+nav a.nav-link {
+  font-size: .8rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
 }
