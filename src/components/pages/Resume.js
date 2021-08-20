@@ -5,9 +5,9 @@ export default function Resume() {
     return(
         <div>
             <div className="row justify-content-md-center">
-                <div className="row xs12 sm={4} md4">
+                <div className="row">
                     <h1 className="text-center">Resume</h1>
-                        <img className="img-responsive img-fluid" src={Res} alt="resumeIMG" width="100" height="400"
+                        <img className="img-responsive img-fluid" src={Res} alt="resumeIMG" width="10%" height="10%"
                     >
                     </img>
         </div>

@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
     return(
         <footer style={{bottom: "0", height: "6rem", background: "#d4a373"}}>
-        <div className="main-footer font-small blue pt-4">
+        <div className="main-footer font-small white pt-4"></div>
             <div className="container-fluid text-center text-md-left">
                 <div className="row">
 
@@ -28,7 +28,7 @@ function Footer() {
 
 
                 </div>
-            </div>
+            
         </div>
         </footer>
     );
