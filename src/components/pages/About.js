@@ -1,7 +1,7 @@
 import React from 'react'
 import portrait from '../../images/portrait.jpg';
 
-const About = () => {
+export default function About() {
     return (
         <section class="section about-section gray-bg" id="about">
     <div class="container">
@@ -12,10 +12,7 @@ const About = () => {
                     <h4 class="theme-color">UI / UX Designer &amp; Web Developer</h4>
                     <p>I am orginally graduated from Clemson University with a civil engineering degree, but now have decided that I want to become a web developer. I am currently finishing </p>
                     <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
-                    <div class="btn-bar">
-                        <a class="px-btn theme" href="#">View Works</a>
-                        <a class="px-btn theme-t" href="#">Download CV</a>
-                    </div>
+                
                 </div>
             </div>
             <div class="col-lg-5 text-center">
@@ -27,7 +24,5 @@ const About = () => {
     </div>
     </div>
 </section>
-    )
-};
-
-export default About;
+    );
+}

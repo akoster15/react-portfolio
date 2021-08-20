@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navbar = ({ currentPage, handlePageChange }) {
+function Navbar ({ currentPage, handlePageChange }) {
     return (
     <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
