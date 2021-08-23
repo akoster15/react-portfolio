@@ -4,7 +4,7 @@ function Header () {
     return (
       <div>
         <div className="jumbotron" style={{background: "#ccd5ae"}}>
-          <h1>Andrew Koster</h1>
+          <h1 className="name">Andrew Koster</h1>
         </div>
       </div>
 
