@@ -19,7 +19,7 @@ export default function Contact() {
     
         
         return (
-            <section className="">
+            <section className="p-5 col-md-1 mx-auto">
                 <h1 className="contact-container">Contact</h1>
                 <form id="contact-form" className="contact-form" onSubmit={handleSubmit}>
 
