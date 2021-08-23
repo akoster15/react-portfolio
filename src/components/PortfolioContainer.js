@@ -26,16 +26,15 @@ export default function PortfolioContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
   
     return (
-      <div style={{ backgroundImage: `url(${background})` }}>
+      <div className= "page-container">
+      <div style={{ backgroundImage: `url(${background})`, backgroundSize: "cover", minHeight: "75rem"}}>
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
-        <div style={{ backgroundImage: `url(${background})` }}>
           {renderPage()}
-        </div>
         <div style={{position: "absolute", left: "0rem", bottom: "0rem", right: "0rem"}}>
         <Footer/>
         </div>
       </div>
-      
+      </div>
     );
   }
   
