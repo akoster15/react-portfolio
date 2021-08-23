@@ -9,7 +9,7 @@ import ProjectTwo from '../../images/haunted.PNG';
 
 export default function Portfolio() {
     return(
-        <div className="container">
+        <div className="p-5 container">
             <h1 className="text-center">My Projects</h1>
             <div style={{display: "flex", flexWrap: "wrap", flexDirection: "row"}}>
             <Project name={"Password Generator"} img={PasswordGenerator} github={"https://github.com/akoster15/password-generator.git"} liveapp={"https://akoster15.github.io/password-generator/"} description={"This app displays will create a random password..."}/>
